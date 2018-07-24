@@ -103,6 +103,7 @@ function vimentry#write_default_template()
                 \ "",
                 \ "-- lookupfile Options:",
                 \ s:write_default( "enable_lookupfile", "true", "{ true, false }" ),
+                \ s:write_default( "lookupfile_patlength", "4", "" ),
                 \ "",
                 \ "-- ex-macrohl Options:",
                 \ s:write_default( "enable_macrohl", "false", "{ true, false }" ),
