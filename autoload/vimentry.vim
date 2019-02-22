@@ -102,7 +102,7 @@ function vimentry#write_default_template()
                 \ s:write_default( "enable_cscope", "true", "{ true, false }" ),
                 \ "",
                 \ "-- lookupfile Options:",
-                \ s:write_default( "enable_lookupfile", "true", "{ true, false }" ),
+                \ s:write_default( "enable_lookupfile", "false", "{ true, false }" ),
                 \ s:write_default( "lookupfile_patlength", "4", "" ),
                 \ "",
                 \ "-- ex-macrohl Options:",
